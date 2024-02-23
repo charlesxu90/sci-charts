@@ -1,0 +1,15 @@
+name: sci-charts-env
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.8
+  - git
+  - numpy
+  - scipy
+  - pandas
+  - jupyterlab
+  - matplotlib
+  - pip
