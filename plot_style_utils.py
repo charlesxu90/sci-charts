@@ -35,7 +35,7 @@ def simple_ax(figsize=(6, 4), **kwargs):
     return fig, ax
 
 def set_pub_plot_context(colors='categorical', context="talk"):
-    sns.set(style="white", context=context, font="Helvetica")
+    sns.set(style="white", context=context) #, font="Helvetica")
 
 
 def save_for_pub(fig, path="../../data/default", dpi=300, include_vector=True):
